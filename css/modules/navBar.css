@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    padding-top: 5px;
+}
+
+.navBar {
+    font-weight: var(--font-subtitle-weight);
+    list-style: none;
+    display: flex;
+    gap: 68px;
+}
+
+.navBtn:hover {
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
+    padding-top: 5px;
+    transition: 0.1s;
+}

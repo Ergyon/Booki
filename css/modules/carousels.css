@@ -1,0 +1,47 @@
+
+/****** Hebergements And Populaires ***********/
+.hebergements-and-populaires {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hebergements-and-populaires section {
+    
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/****** Hebergements ***********/
+.hebergements {
+    background-color: var(--main-bg-color);
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+
+/****** Populaires ***********/
+.populaires {
+    width: 32%;
+    background-color: var(--main-bg-color);
+}
+
+.populaires-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/****** Activités ******/
+.activites {
+    margin-top: 60px;
+    /* gap: 30px; */
+}
+
+.activites .section-title {
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
